@@ -1,0 +1,39 @@
+
+# Ethiopian Banking Apps – Customer Experience Analysis
+## 10 Academy Week 2 Final Report | 02 Dec 2025
+
+### Executive Summary
+Analyzed 1,350+ Google Play reviews from CBE, BOA, and Dashen Bank mobile apps using:
+• Web scraping (Task 1)
+• DistilBERT sentiment + thematic analysis (Task 2)
+• PostgreSQL database (Task 3)
+• Insight generation & recommendations (Task 4)
+
+### Key Findings
+• Dashen leads in user satisfaction (highest positive sentiment & drivers)
+• BOA has the most severe performance & login issues
+• CBE is in the middle but suffers from crashes and slow speed
+• All banks show increasing negative sentiment in late 2025
+
+### Recommendations Implemented
+• Implement biometric fallback + SMS OTP retry limit increase
+• Fix memory leaks causing crashes (especially on older Android)
+• Optimize backend for transfer speed during peak hours
+• Add in-app crash reporting with auto-restart
+• Complete overhaul of login flow (reduce OTP failures)
+• Upgrade server capacity or implement caching
+• Add transaction status tracker with push notifications
+• Launch dark mode + performance improvements campaign
+• Fix biometric authentication on Samsung/Huawei devices
+• Improve real-time transfer status updates
+• Add budget tracker & spending insights (most requested feature)
+• Continue focusing on beautiful, fast UI – it’s your biggest strength
+
+### Ethics & Limitations
+ETHICS & BIAS CONSIDERATIONS
+• Google Play reviews are self-selected → strong negative bias (people review when angry)
+• Only English reviews scraped → excludes Amharic/Afaan Oromoo feedback
+• Recent reviews dominate → may not reflect long-term experience
+• Mitigation: Focused on relative comparison between banks, not absolute scores
+
+Submitted with full code, database, and reproducible pipeline.
